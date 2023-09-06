@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Livvic', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenitore{
+    width: 1500px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+    padding: 70px;
+    border-radius: 20px;
+}
+.header{
+    text-align: center;
+}
+img{
+    width: 300px;
+}
+header p{
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(112, 212, 11);
+    
+}
+nav{
+    width: 100%;
+    background-color: rgb(112, 212, 11);
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px;
+}
+nav button{
+    color: black;
+}
+main section{
+    margin-top: 50px;
+}
+section span{
+    font-size: 30px;
+}
+section p{
+    margin-top: 5px;
+}
+.barra{
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 5px;
+}
+.mezza-carica{
+    width: 25%;
+    background-color: orange;
+}
+.carica{
+    background-color: green;
+    width: 50%;
+}
+.scarica{
+    background-color: red;
+    width: 10%;
+}
